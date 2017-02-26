@@ -28,6 +28,8 @@ For Question 2:
 
 2) Type python q2.py on Command Line.
 
+3) When prompted user shoud enter value of k, which will be used to print k happiest and most compatible couples.
+
 3) file q2ClassDiagrams.pdf contains related Class Diagrams.
 
 4) for Documentation cd to DOC2 and then index.html .
