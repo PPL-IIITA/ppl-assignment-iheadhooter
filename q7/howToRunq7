@@ -1,0 +1,12 @@
+HOW TO RUN
+1) To run the program type "python q7.py" on command line without quotes.
+2) When prompted user should specify data structure to be used to store committed boys and their gf's 1 for list, 2 for hash Table and 3 for sorted list.
+
+Class Diagrams for question 7 can be found in the file "q7classDiagrams.pdf".
+The Documentation can found in Documentation folder
+  just cd into Documentation and open "index.html" with the browser
+  
+Notes:-
+1)The program generates 1000 X random boys, 500 X random girls and 1000 X random gifts during runtime, the utility function generateRandomItems() is called for the same.
+2)Each program run generates new set of random boys, girls and gifts.
+3)Every event related to q7 (like breakups, commitments, giftings) would be logged into file q7log.txt which is created during runtime. 

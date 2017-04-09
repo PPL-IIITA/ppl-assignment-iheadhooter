@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
 	utilities.generateRandomItems() 
 	"""call to utility function to generate random items"""
-	logging.basicConfig(filename='q8Log.txt',level=logging.DEBUG)			
+	logging.basicConfig(filename='q9Log.txt',level=logging.DEBUG)			
 	boysList, girlsList, giftsList, couplesList = [], [], [], []		
 	loadData() 
 	"""call to the function loadData() to load data in csv files into the program."""

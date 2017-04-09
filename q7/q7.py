@@ -70,7 +70,7 @@ def loadData():   # Loads Data from CSV into Program
 if __name__ == '__main__': # Execution Begins from Here
 
 	utilities.generateRandomItems()						# calls utility function to generate random data
-	logging.basicConfig(filename='q3Log.txt',level=logging.DEBUG)			
+	logging.basicConfig(filename='q7Log.txt',level=logging.DEBUG)			
 	boysList, girlsList, giftsList, couplesList = [], [], [], []		
 	loadData()				 			#calls the function which loads data from csv file to Program
 	#print len(giftsList)				
