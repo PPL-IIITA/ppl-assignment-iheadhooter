@@ -74,7 +74,7 @@ if __name__ == '__main__': # Execution Begins from Here
 	loadData()				 			#calls the function which loads data from csv file to Program
 	#print len(giftsList)				
 
-	for girl in girlsList:						# The loop assigns bf's to girls in the same order as the input
+	for girl in sorted(girlsList, key = lambda x : x.attractiveness, reverse = True):						# The loop assigns bf's to girls in the same order as the input
 		for boy in boysList:
 			if girl.canDateThisBoy(boy) and boy.canDateThisGirl(girl):
 				girl.getCommitted(boy)

@@ -85,7 +85,7 @@ if __name__ == '__main__':
 	"""call to the function loadData() to load data in csv files into the program."""
 	#print len(giftsList)	
 
-	for girl in girlsList:
+	for girl in sorted(girlsList, key = lambda x : x.attractiveness, reverse = True):
 		"""this loop assigns bf's to girls"""						
 		for boy in boysList:
 			if girl.canDateThisBoy(boy) and boy.canDateThisGirl(girl):

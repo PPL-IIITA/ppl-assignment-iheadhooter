@@ -117,7 +117,7 @@ if __name__ == '__main__': # Execution Begins from Here
 				pass
 
 	else:
-		for girl in girlsList:									# the loops assigns boyfriends to girls in the same
+		for girl in sorted(girlsList, key = lambda x : x.attractiveness, reverse = True):									# the loops assigns boyfriends to girls in the same
 			for boy in boysList:								# order as the input
 				if girl.canDateThisBoy(boy) and boy.canDateThisGirl(girl):
 					girl.getCommitted(boy)
