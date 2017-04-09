@@ -1,0 +1,11 @@
+HOW TO RUN
+1) To run the program type "python q8.py" on command line without quotes.
+2) When prompted user should specify the choice of gifting logic between 1 or 2 (enter 1 for old one and, enter 2 for new one).
+
+Class Diagrams for question 8 can be found in the file "q8classDiagrams.pdf".
+The Documentation can found in Documentation folder
+  just cd into Documentation and open "index.html" with the browser
+  
+Notes:-
+1)The program generates 1000 X random boys, 500 X random girls and 1000 X random gifts during runtime, the utility function generateRandomItems() is called for the same.
+2)Every event related to q8 (like breakups, commitments, giftings) would be logged into file q8log.txt which is created during runtime. 
