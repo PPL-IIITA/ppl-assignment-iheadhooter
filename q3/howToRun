@@ -1,0 +1,11 @@
+HOW TO RUN
+1) To run the program type "python q3.py" on command line without quotes.
+2) When prompted user should value of k(integer) .
+
+Class Diagrams for question 3 can be found in the file "q3classDiagrams.pdf".
+The Documentation can found in Documentation folder
+  just cd into Documentation and open "index.html" with the browser
+  
+Notes:-
+1)The program generates 1000 X random boys, 500 X random girls and 1000 X random gifts during runtime, the utility function generateRandomItems() is called for the same.
+2)Every event related to q3 (like breakups, commitments, giftings) would be logged into file q3log.txt which is created during runtime. 
