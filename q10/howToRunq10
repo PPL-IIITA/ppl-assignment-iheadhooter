@@ -1,12 +1,12 @@
 HOW TO RUN
-1) To run the program type "python q9.py" on command line without quotes.
+1) To run the program type "python q10.py" on command line without quotes.
 2) When prompted user should type value of k(integer, the number of most compatible and happy couple he/she wants to be prited on console).
 
-Class Diagrams for question 9 can be found in the file "q9classDiagrams.pdf".
+Class Diagrams for question 10 can be found in the file "q10classDiagrams.pdf".
 The Documentation can found in Documentation folder
   just cd into Documentation and open "index.html" with the browser
   
 Notes:-
 1)The program generates 1000 X random boys, 500 X random girls and 1000 X random gifts during runtime, the utility function generateRandomItems() is called for the same.
 2)Each program run generates new set of random boys, girls and gifts.
-3)Every event related to q9 (like breakups, commitments, giftings) would be logged into file q9log.txt which is created during runtime. 
+3)Every event related to q10 (like breakups, commitments, giftings) would be logged into file q10log.txt which is created during runtime. 
