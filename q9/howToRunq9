@@ -10,3 +10,4 @@ Notes:-
 1)The program generates 1000 X random boys, 500 X random girls and 1000 X random gifts during runtime, the utility function generateRandomItems() is called for the same.
 2)Each program run generates new set of random boys, girls and gifts.
 3)Every event related to q9 (like breakups, commitments, giftings) would be logged into file q9log.txt which is created during runtime. 
+4)The program assumes the size of the collection of best k items as 60. however it can be changed by editing line 99 of source.
